@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".edit_product">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="122dp"
+            >
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/editProduct_tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="64dp"
+            android:textSize="30dp"
+            android:text="Add/Edit Product" />
+
+        <TextView
+            android:id="@+id/editProduct_tv_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="112dp"
+            android:text="input the following prompts" />
+
+        <EditText
+            android:id="@+id/editProduct_et_ProductName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="207dp"
+            android:ems="10"
+            android:hint="Product Name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editProduct_et_ProductPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="280dp"
+            android:ems="10"
+            android:hint="Price"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/editProduct_btn"
+            android:layout_width="194dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="257dp"
+            android:backgroundTint="@android:color/darker_gray"
+            android:text="add/change"
+            android:textColor="@color/black" />
+
+</RelativeLayout>

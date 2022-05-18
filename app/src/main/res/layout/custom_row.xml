@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+
+    <ImageView
+        android:id="@+id/ivIcon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/ic_baseline_shopping_cart_24"
+        />
+
+    <TextView
+        android:id="@+id/tvText"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Item"
+        android:textSize="24sp"
+        />
+
+    <CheckBox
+        android:id="@+id/cbItem"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        />
+
+</LinearLayout>
